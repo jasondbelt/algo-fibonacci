@@ -4,11 +4,10 @@ Parameter: number
 Return: The integer representing the nth number in the fibonnaci sequence
 Example(s): See Below
 Pseudocode:
-Edge Case: Return 0 if num is 0
 initialize initial array variable as [0,1] as problem states
-use for loop while array.length is less then num
-continually pushing the sum of the previous and current indexes to the arrayon each iteration
-return index of num
+use for loop while i is less then num
+continually pushing the sum of the previous and current indexes to the array variable on each iteration
+return index of array[num]
 */
 
 function fibonacci(num) {
